@@ -1,0 +1,88 @@
+/* styles.css */
+
+/* 게시판 컨테이너 */
+.bulletin-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* 글 작성 입력 폼 */
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-container input[type="text"],
+  .input-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .input-container textarea {
+    resize: vertical;
+  }
+  
+  .input-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .input-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* 글 항목 목록 */
+  .post-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .post-item h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .post-item p {
+    margin-bottom: 10px;
+  }
+
+  .post-item a { /* 링크에 대한 스타일 설정 */
+    text-decoration: none; /* 밑줄 제거 */
+  }
+  
+  .post-item button {
+    padding: 6px 12px;
+    margin-right: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .post-item button.edit {
+    background-color: #ffc107;
+  }
+  
+  .post-item button:hover {
+    background-color: #bd2130;
+  }
+  
+  .post-item button.edit:hover {
+    background-color: #e0a800;
+  }
+  

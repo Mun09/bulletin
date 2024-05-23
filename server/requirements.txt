@@ -1,0 +1,5 @@
+datetime
+fastapi
+typing
+sqlalchemy
+psycopg2-binary

@@ -1,0 +1,6 @@
+docker build -t my-python-app .
+docker run --name pyenv -p 8000:8000 my-python-app
+
+--------------------------------------------------
+
+docker start pyenv
